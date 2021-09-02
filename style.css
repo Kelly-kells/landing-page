@@ -14,22 +14,36 @@ body{
         margin: auto;
     }
 }
+.container-page{
+    background-color:  #07393c;
+    height: 500px;
+}
 
 .page{
     margin-top: 70px;
-    background-color: #07393c;
-    width: 80%;
-    height: 500px;
+    border: 1px solid blue;
+    height: 250px;
+    margin-left: 50px;
+
     
 }
 .page-img{
     width: 150px;
     position: absolute;
     margin-top: 30px;
+    margin-left: 10px;
+}
+
+.page-img2{
+    width: 150px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 200px;
 }
 .page-p{
     position: absolute;
-    margin-left: 150px;
+    margin-left: 170px;
     margin-top: 50px;
     color: #fff;
 }
@@ -46,13 +60,23 @@ a:hover{
 .page-p2{
     position: absolute;
     color: #fff;
-    margin-left: 150px;
+    margin-left: 170px;
     margin-top: 130px;
 }
 .page-p3{
     position: absolute;
-    color: #fff;
-    margin-left: 150px;
+    color:black;
+    margin-left: 170px;
     margin-top:150px ;
     font-style: italic;
+    background-color: cyan;
+}
+.pag{
+    color: white;
+    font-style: italic;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 60px;
+    border-bottom: 2px dotted cadetblue;
+
 }
