@@ -10,14 +10,23 @@ body{
 @media only screen and (min-width: 1000px) {
     
     .navbar-div {
-        width: 80%;
+        width: 50%;
         margin: auto;
     }
 }
 .container-page{
     background-color:  #07393c;
-    height: 500px;
+    height: auto;
 }
+.container{
+    display: grid;
+}
+@media only screen and (max-width:600px){
+    .container{
+        grid-template-columns: repeat(1,);
+    }
+}
+
 
 .page{
     margin-top: 70px;
@@ -79,4 +88,20 @@ a:hover{
     margin-left: 60px;
     border-bottom: 2px dotted cadetblue;
 
+}
+.page2{
+    margin-top: 30px;
+}
+.img-1{
+    width: 100px;
+    margin-left: 10px;
+}
+.img-2{
+    width: 100px;
+    margin-left: 10px;
+}
+.img-3{
+    width: 100px;
+    height: 150px;
+    margin-left: 10px;
 }
